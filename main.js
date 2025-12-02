@@ -90,7 +90,7 @@ function enviar() {
         return;
     }
 
-    if (tentativas % 10 === 0) {
+    if (tentativas % 5 === 0) {
         addLog("Quer uma dica? (s/n)", 'bot');
         aguardandoDica = true;
         input.value = '';
